@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Celeri from "../../assets/celeri.svg";
 import { useNavigate } from "react-router-dom";
-import IdentityFiles from "../../components/IdetityFiles/IdentityFiles";
 import { Grid, Typography } from "@mui/material";
+import IdentityFiles from "../../components/IdentityFiles/IdentityFiles";
 
 const DocumentationUploader = () => {
   const navigate = useNavigate();

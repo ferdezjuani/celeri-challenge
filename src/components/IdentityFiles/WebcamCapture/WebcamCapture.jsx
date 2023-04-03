@@ -1,10 +1,10 @@
-import { Box, Button, Grid, Typography } from "@mui/material";
+import { Button, Grid, Typography } from "@mui/material";
 import axios from "axios";
 import React, { useRef, useState } from "react";
 import Webcam from "react-webcam";
 import Celeri from "../../../assets/celeri.svg";
 
-const VideoRecorder = () => {
+const WebcamCapture = () => {
   const webcamRef = useRef(null);
   const mediaRecorderRef = useRef(null);
   const [capturing, setCapturing] = useState(false);
@@ -91,4 +91,4 @@ const VideoRecorder = () => {
   );
 };
 
-export default VideoRecorder;
+export default WebcamCapture;
