@@ -26,6 +26,9 @@
     <h2>Instalación</h2>
     <p>Para instalar el proyecto, primero debes clonar el repositorio desde GitHub:</p>
     <pre><code>git clone https://github.com/ferdezjuani/celeri-challenge.git</code></pre>
+    <p>Debes crear un archivo .env con la APIKEY y BASE_URL:</p>
+    <pre><code>BASE_URL=API_URL
+API_KEY=APIKEY</code></pre>
     <p>Luego, ingresa al directorio del proyecto y ejecuta el siguiente comando para instalar las dependencias:</p>
     <pre><code>npm install</code></pre>
     <p>Para ejecutar el proyecto en modo desarrollo, usa el siguiente comando:</p>
