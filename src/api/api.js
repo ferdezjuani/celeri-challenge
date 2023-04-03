@@ -11,7 +11,7 @@ export const getPersona = async (idPersona, queryParamName = "idPersona") => {
   };
 
   const response = await axios.get(
-    `${BASE_URL}?${queryParamName}=${idPersona}`,
+    `${BASE_URL}/getPersona?${queryParamName}=${idPersona}`,
     config
   );
   return response.data;
